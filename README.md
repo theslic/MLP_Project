@@ -26,4 +26,14 @@
         - Artist Followers(int): How many followers the artist of the song has
         - Song ID(string): Unique identifier for each song
         - Genre(list): The list of genres the song falls under
+        - Danceability(float): How danceable is the beat
+        - Energy(float): How upbeat the song is
+        - Loudness(float): How large the sound is
+        - Speechiness(float): How much singing there is
+        - Acousticness(float): This value describes how acoustic a song is. 1.0 means the song is most likely to be an acoustic one.
+        - Liveness(float): This value describes the probability that the song was recorded with a live audience
+        - Tempo(float): The is the pacing of the song
+        - Duration(ms)(int): How long the song is
+        - Valence(float): The higher the value the more positive the song is
+        - Chord(String): The key the song is played in
     - The size of the dataset is 1556 rows and 23 columns
