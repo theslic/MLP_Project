@@ -12,6 +12,13 @@
         - Energy (float): energy of the music
         - Instrumentalness (float): how instrumental the music is
         - Key (string): music key of each track
+        - Liveness (float): liveness of each track
+        - Loudness (float, negative and positive): loudness of each track
+        - Mode (string, minor and major): mode of each track
+        - Speechiness (float): speechiness of each track
+        - Tempo (float): the tempo of each track
+        - Obtained_date (string): obtained date of each track
+        - Valence (float): valence of each track
     - Size of dataset: 10 columns and 41700 unique values
 - Prediction based on popularity
     - The dataset description: dataset contains the top songs on Spotify
